@@ -48,16 +48,14 @@ namespace A2SV___Blog_CRUD
         {
             var post = DbContext.Posts.Find(postId);
 
-            if (post != null)
-            {
-                var commentToDelete = post.Comments.FirstOrDefault(c => c.Id == commentId);
+            if (post == null) return;
 
-                if (commentToDelete != null)
-                {
-                    post.Comments.Remove(commentToDelete);
-                    DbContext.SaveChanges();
-                }
-            }
+            var comment = DbContext.Comments.FirstOrDefault(c => c.Id == commentId);
+
+            if (comment == null) return;
+
+            DbContext.Comments.Remove(comment);
+            DbContext.SaveChanges();
         }
     }
 }

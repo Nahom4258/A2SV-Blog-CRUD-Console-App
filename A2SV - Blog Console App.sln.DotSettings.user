@@ -4,5 +4,8 @@
     &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.PostManagerUnitTest.AddPost&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.PostManagerUnitTest.EditPost&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.PostManagerUnitTest.DeletePost&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.CommentManagerUnitTest.AddComment&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.CommentManagerUnitTest.EditComment&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::498B28E6-9DB4-43A3-AC93-4D536025D0CF::net7.0::Tests.CommentManagerUnitTest.DeleteComment&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
