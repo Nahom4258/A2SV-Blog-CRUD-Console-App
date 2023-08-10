@@ -1,0 +1,84 @@
+.config/
+
+# Rider-specific
+.idea/
+*.sln.iml
+
+# Visual Studio-specific
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.csproj.user
+[Bb]in/
+[Oo]bj/
+*.nupkg
+*.pdb
+*.userprefs
+TestResults/
+packages/
+*.log
+.vscode/
+*.code-workspace
+
+# .NET Core build output
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# macOS specific files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Rider-generated files
+.idea
+*.sln.iml
+
+# User-specific files
+*.userprefs
+
+# Logs
+*.log
+*.stackdump
+
+# Visual Studio-specific files
+.vscode/
+*.suo
+*.user
+
+# JetBrains Rider settings
+.idea/
+
+# Rider workspace files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code settings
+.vscode/
+.settings/
+
+# Visual Studio IntelliCode
+.vscode/.intelliCode/*
+
+# Rider IntelliSense
+.idea/codeStyles/
+.idea/shelf/
+
+# Local history for Rider
+.idea/localHistory/
+
+# ReSharper (if used)
+_ReSharper*/
+*.ReSharper*
